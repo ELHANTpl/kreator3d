@@ -1,6 +1,6 @@
 console.log('Skrypt main.js załadowany'); // Dodaj na początku pliku
 
-import { initScene, loadModel } from 'https://elhant.pl/threejs-creator/scripts/loader-v1.js';
+import { initScene, loadModel } from 'https://elhantpl.github.io/kreator3d/threejs-creator/scripts/loader-v1.js';
 
 document.addEventListener("DOMContentLoaded", () => {
   console.log('DOMContentLoaded event triggered');
