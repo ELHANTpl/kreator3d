@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const { scene, camera, renderer } = initScene(container);
   console.log('Scena zainicjalizowana');
 
-  loadModel(scene, 'https://cdn.jsdelivr.net/gh/ELHANTpl/kreator3d/threejs-creator/src/models/car1/lambo.glb');
+  loadModel(scene, 'https://elhantpl.github.io/kreator3d/threejs-creator/src/models/car1/lambo.glb');
   console.log('Model samochodu wczytywany...');
 });
