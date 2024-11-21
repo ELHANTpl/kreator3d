@@ -1,7 +1,5 @@
 console.log('Skrypt main.js załadowany'); // Dodaj na początku pliku
 
-import { initScene, loadModel } from './loader.js';
-
 document.addEventListener("DOMContentLoaded", () => {
   console.log('DOMContentLoaded event triggered');
 
