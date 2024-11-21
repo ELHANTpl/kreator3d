@@ -1,20 +1,20 @@
+console.log('Skrypt main.js załadowany'); // Dodaj na początku pliku
+
 import { initScene, loadModel } from './loader.js';
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log('DOMContentLoaded event triggered'); // Sprawdzenie, czy DOM jest załadowany
+  console.log('DOMContentLoaded event triggered');
 
   const container = document.getElementById('scena-edytora');
   if (!container) {
     console.error('Nie znaleziono elementu o ID "scena-edytora".');
     return;
   }
-  console.log('Kontener #scena-edytora znaleziony'); // Debug
+  console.log('Kontener #scena-edytora znaleziony');
 
-  // Inicjalizacja sceny
   const { scene, camera, renderer } = initScene(container);
-  console.log('Scena zainicjalizowana'); // Debug
+  console.log('Scena zainicjalizowana');
 
-  // Wczytaj model samochodu
   loadModel(scene, 'https://cdn.jsdelivr.net/gh/ELHANTpl/kreator3d/threejs-creator/src/models/car1/lambo.glb');
-  console.log('Model samochodu wczytywany...'); // Debug
+  console.log('Model samochodu wczytywany...');
 });
